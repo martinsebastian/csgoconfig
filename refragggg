@@ -1,0 +1,25 @@
+exec config;
+
+bind "f" "noclip";
+bind "g" "say .clear";
+bind "z" "say .rethrow";
+
+bind "f2" "say .setup";
+bind "f3" "say .menu";
+bind "f4" "say .start";
+bind "f5" "say .stop";
+
+bind "uparrow" "say .rr";
+bind "leftarrow" "say .watch";
+bind "rightarrow" "say .versus";
+bind "downarrow" "say .dry 5";
+
+echo "say .trail";
+echo "say .noflash";
+
+bind "f6" "say .recplayer 1";
+bind "f7" "say .recplayer 2";
+bind "f8" "say .recplayer 3";
+bind "f9" "say .recplayer 4";
+bind "f10" "say .recplayer 5";
+bind "0" "say .stop";
